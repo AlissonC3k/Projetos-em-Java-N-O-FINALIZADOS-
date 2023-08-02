@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html>
+    <body>
+        <script>
+           var NumeroI = prompt('Informe o número inicial!');
+
+           var Sinal = prompt('informe o sinal! (+ - * /)');
+            
+           while(Sinal != '-' && Sinal != '+' && Sinal != '*' && Sinal != '/'){
+            alert('Por favor informe um sinal válido (+ - * /)');
+            Sinal = prompt('informe o sinal da sua operação...');
+        }
+
+        var NumeroF = prompt('Informe um número final!');
+
+        NumeroI = parseInt(NumeroI);
+        NumeroF = parseInt(NumeroF);
+//se usa parseInt para transforma string em número
+//assim ele vai somar 50+50 = 100 sem o parseInt fica 5050!
+        var resultante = 0
+
+        if(Sinal == '+'){
+            resultante = NumeroI + NumeroF;
+        }else if(Sinal == '-'){
+            resultante = NumeroI - NumeroF;
+        }else if(Sinal == '*'){
+            resultante = NumeroI * NumeroF;
+        }else if(Sinal == '/'){
+            resultante = NumeroI / NumeroF;
+        }
+        alert('O resultante final é: '+resultante);
+
+                
+        </script>
+    </body>
+</html>
