@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var AnoN = prompt('Qual seu ano de nascimento? ');
+
+            while(AnoN > 2023){
+                alert('Por Favor, informe o ano corretamente!');
+                AnoN = prompt('por favor seu ano de nascimento!');
+            }
+            
+            var AnoA = prompt('Qual Ano Atual ? ');
+            
+            while(AnoA > 2023){
+               
+                alert('Por Favor, informe o ano corretamente!');
+                A
+                noN = prompt('por favor informe o ano para calcularmos!');
+            }
+
+            var Idade = AnoA - AnoN;
+
+            alert('A Sua idade é '+Idade);
+
+
+                
+        </script>
+    </body>
+</html>
