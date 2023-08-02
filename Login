@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+           var nome = prompt('Qual seu nome amigo?');
+           var idade = prompt('Você tem que idade?');
+           var cidade = prompt('Qual cidade reside?');
+           var senha = prompt('Digite Sua Nova Senha!');
+           var rpt = prompt('Repita a senha! ');
+           
+           console.log('O seu nome é '+nome);
+           console.log('A sua idade é '+idade);
+           console.log('Você mora na cidade de '+cidade);
+           console.log('inicialmente a senha é '+senha);
+           console.log('a senha é '+rpt);
+
+                
+        </script>
+    </body>
+</html>
